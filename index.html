@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lion City Soundscapes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="image1.png" width="750" alt="JavaJam Banner">
+        </header>
+
+ <nav>
+    <ul>
+        <li><a href="index.html">Recentre</a></li>
+        <li id="about-nav">
+            <a href="#">About</a>
+            <div id="filter-container">
+                <p><strong>Filter Category:</strong></p>
+                <label><input type="checkbox" class="type-filter" value="C&T" checked> <span class="legend-circle pin-ct"></span> Calm & Tranquil</label>
+                <label><input type="checkbox" class="type-filter" value="C&R" checked> <span class="legend-circle pin-cr"></span> Chaotic & Restless</label>
+                <label><input type="checkbox" class="type-filter" value="B&L" checked> <span class="legend-circle pin-bl"></span> Boring and Lifeless</label>
+                <label><input type="checkbox" class="type-filter" value="F&E" checked> <span class="legend-circle pin-fe"></span> Exciting & Full of Life</label>
+                <label><input type="checkbox" class="type-filter" value="-" checked> <span class="legend-circle pin-dash"></span> N/A</label>
+            </div>
+        </li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+        <main>
+            <h2>Explore Singapore Soundscapes</h2>
+            
+            <div class="search-wrapper">
+                <input type="text" id="location-search" placeholder="Search for a location... (e.g., NTU, Tampines)">
+                <div id="search-suggestions" class="suggestions-box"></div>
+            </div>
+            
+            <div id="map-container" style="position: relative;">
+                <div id="map"></div>
+                
+                <div id="video-modal" class="modal-hidden">
+                    <div class="modal-content">
+                        <span id="close-modal">&times; </span>
+                        <div id="video-player-container"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="type-display">
+                Select a location on the map to view its soundscape type.
+            </div>
+
+        </main>
+
+        <footer>
+            <p>Copyright &copy; 2026 Lion City Soundscapes</p>
+            <p><a href="mailto:abigale@tan.com">abigale@tan.com</a></p>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="map-logic.js"></script>
+</body>
+</html>
