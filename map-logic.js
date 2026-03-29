@@ -101,6 +101,7 @@ function getRoughnessColor(val) {
     return 'rgba(71, 86, 132)'; // #475684 Dark Blue
 }
 
+
 // ==========================================
 // 2. MODAL & DATA LOADING
 // ==========================================
