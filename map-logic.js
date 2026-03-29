@@ -112,7 +112,7 @@ function closeModal() {
 }
 document.getElementById('close-modal').onclick = closeModal;
 
-Papa.parse("databases/Tagged_30s.csv", {
+Papa.parse("Databases/Tagged_30s.csv", {
     download: true, header: true, skipEmptyLines: true,
     complete: function(results) {
         results.data.forEach(row => {
@@ -123,7 +123,7 @@ Papa.parse("databases/Tagged_30s.csv", {
             }
         });
         
-        Papa.parse("databases/graphs.csv", {
+        Papa.parse("Databases/graphs.csv", {
             download: true, header: false, skipEmptyLines: true,
             complete: function(graphResults) {
                 let currentLoc = null;
@@ -153,7 +153,7 @@ Papa.parse("databases/Tagged_30s.csv", {
 // 3. BUILD MARKERS & GRADIENT AURAS
 // ==========================================
 function loadLocations() {
-    Papa.parse("databases/locations.csv", {
+    Papa.parse("Databases/locations.csv", {
         download: true, header: true, skipEmptyLines: true,
         complete: function(results) {
             results.data.forEach(function(row) {
