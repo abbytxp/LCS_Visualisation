@@ -1,0 +1,76 @@
+﻿lcs_id,Title,Latitude,Longitude,Type,vidEmbed,vidLink_oneMin,vidLink_full,,,Sound Pressure Level (dB),ISOPleasantness,ISOEventfulness,Sound Pressure Level (dBC),Sound Pressure Level (dBZ),Loudness (sone),Sharpness (acum),Roughness (asper),Tonality (tu),Fluctuation Strength (vasil)
+S0001,NTU Sports and Recreation Centre,1.3502707,103.6881645,C&T,https://youtube.com/embed/REmxz-1Pf7Q,https://youtu.be/ADzSYviV0Gc,https://youtu.be/REmxz-1Pf7Q,,,48.2,0.336,-0.431,,,7.24,1.09,0.0213,,
+S0002,Intersection of Jurong West Street 63 & Jurong West Street 64,1.3376,103.702834,C&R,https://www.youtube.com/embed/7iV2FOR48FQ,https://youtu.be/qskVz-fkItU,https://youtu.be/7iV2FOR48FQ,,,65.4,-0.234,0.066,,,30.8,1.18,0.0299,,
+S0003,Singapore Discovery Centre,1.3314139,103.6782363,B&L,https://www.youtube.com/embed/NETpq50GJao,https://youtu.be/MmVc0-cDdrE,https://youtu.be/NETpq50GJao,,,57.0,0.156,-0.256,,,15.1,1.23,0.0268,,
+S0004,Tampines Central 7,1.3581378,103.9400907,C&R,https://www.youtube.com/embed/q04g1INdn5A,https://youtu.be/_2MbSIqL0Cg,https://youtu.be/q04g1INdn5A,,,66.9,-0.166,0.004,,,30.7,1.22,0.0401,,
+S0005,Tampines Eco Green Park,1.363324,103.9461632,C&T,https://www.youtube.com/embed/8xmRBVsQf-4,https://youtu.be/wy25PHRmTE0,https://youtu.be/8xmRBVsQf-4,,,55.8,0.079,-0.169,,,14.5,1.12,0.0248,,
+S0006,White Sands Shopping Mall,1.3728609,103.9508064,B&L,https://www.youtube.com/embed/oLjJXGHPr98,https://youtu.be/jmIQ_dwTGig,https://youtu.be/oLjJXGHPr98,,,63.8,-0.144,-0.192,,,27.3,1.4,0.0324,,
+S0007,Singapore University of Technology and Design Staff Housing,1.342477,103.9637642,B&L,https://www.youtube.com/embed/vGQoPN63uLQ,https://youtu.be/VS_Mzlp7b4E,https://youtu.be/vGQoPN63uLQ,,,59.6,0.002,-0.135,,,14.8,1.5,0.0262,,
+S0008,Changi Beach Park,1.3909713,103.9884356,C&T,https://www.youtube.com/embed/RMcyq8oq3Tg,https://youtu.be/kEw58WqG7WY,https://youtu.be/RMcyq8oq3Tg,,,58.4,0.029,-0.178,,,18.3,1.09,0.0257,,
+S0009,Harrison Industrial Building,1.3330752,103.8869456,C&R,https://www.youtube.com/embed/ZrAF-kaG_-c,https://youtu.be/SPpHUa3VlDg,https://youtu.be/ZrAF-kaG_-c,,,72.3,-0.187,0.276,,,41.4,1.26,0.0402,,
+S0010,East Coast Park (Area C),1.301258,103.915458,C&T,https://www.youtube.com/embed/vmTkxvmIREU,https://youtu.be/VDIdwPTqTTU,https://youtu.be/vmTkxvmIREU,,,55.4,0.18,-0.183,,,12.7,1.14,0.0255,,
+S0011,Changi Airport Terminal 1 (Information Counter),1.360501,103.990074,F&E,https://www.youtube.com/embed/4Lpm3qYoaUw,https://youtu.be/OUSOOjNhYlY,https://youtu.be/4Lpm3qYoaUw,,,63.0,0.138,0.219,,,18.9,1.28,0.0299,,
+S0012,Changi Airport Terminal 1 (Arrival Gate),1.36049,103.99058,C&R,https://www.youtube.com/embed/lIDs8Q5c3uw,https://youtu.be/tDLKe5j4eRo,https://youtu.be/lIDs8Q5c3uw,,,61.0,0.141,0.265,,,16.6,1.23,0.029,,
+S0013,Bedok Interchange Hawker Centre,1.324892,103.930391,C&R,https://www.youtube.com/embed/56aZoFDTfEM,https://youtu.be/Bv54AFFFn-w,https://youtu.be/56aZoFDTfEM,,,65.0,-0.005,0.052,,,21.5,1.26,0.0326,,
+S0014,Teban Neighbourhood Park,1.320978,103.740566,B&L,https://www.youtube.com/embed/Ukk7otXXx0g,https://youtu.be/eLPL-oiQmx0,https://youtu.be/Ukk7otXXx0g,,,62.0,-0.053,-0.03,,,18,1.04,0.0244,,
+S0015,Jurong East MRT Station,1.333402,103.742122,F&E,https://www.youtube.com/embed/wSfpl6pQL3Q,https://youtu.be/o76Z4LxFGJw,https://youtu.be/wSfpl6pQL3Q,,,68.5,0.01,0.382,,,27,1.16,0.0397,,
+S0016,Lim Chu Kang Road,1.372323,103.694445,B&L,https://www.youtube.com/embed/6hKaO59BjmI,https://youtu.be/O6yR4wC7h0s,https://youtu.be/6hKaO59BjmI,,,68.7,-0.177,-0.072,,,35.4,1.1,0.0344,,
+S0017,Intersection of Tuas West Drive & Pioneer Road,1.3343,103.634928,C&R,https://www.youtube.com/embed/ndjeDKXQjKY,https://youtu.be/97213CTRk3w,https://youtu.be/ndjeDKXQjKY,,,70.6,-0.205,0.178,,,38.1,1.18,0.0362,,
+S0018,Sungei Buloh Wetland Reserve (Mangrove Boardwalk),1.4473974,103.730346,F&E,https://www.youtube.com/embed/wvCBZzg1RMg,https://youtu.be/acdtDyCbcTc,https://youtu.be/wvCBZzg1RMg,,,58.1,0.292,-0.207,,,13.1,1.32,0.0278,,
+S0019,Sungei Buloh Wetland Reserve (Buloh Besar River),1.445906,103.727592,C&T,https://www.youtube.com/embed/fmg-9xzQlSI,https://youtu.be/GsKnq0LmOqg,https://youtu.be/fmg-9xzQlSI,,,54.9,0.352,-0.228,,,11,1.84,0.0181,,
+S0020,Tuas West Road MRT Station,1.3319689,103.6401685,B&L,https://www.youtube.com/embed/F965vGIxhbo,https://youtu.be/JydMg0ojMGg,https://youtu.be/F965vGIxhbo,,,75.3,-0.289,0.142,,,51.3,1.38,0.0487,,
+S0021,Handy Road (Opposite Plaza Singapura Shopping Mall),1.2997473,103.8459958,C&R,https://www.youtube.com/embed/lF19TyOE2KA,https://youtu.be/bgN1w76V_T4,https://youtu.be/lF19TyOE2KA,,,71.5,-0.154,0.119,,,33.5,1.38,0.0362,,
+S0022,Opposite Clarke Quay Shopping Mall,1.290159,103.8474086,F&E,https://www.youtube.com/embed/3P_pgt7EIAw,https://youtu.be/yAwNMTMUe-c,https://youtu.be/3P_pgt7EIAw,,,60.5,0.186,0.161,,,17,1.16,0.0302,,
+S0023,Tampines Central Bus Interchange,1.3538826,103.9448375,F&E,https://www.youtube.com/embed/1veOJzKazLU,https://youtu.be/8JkNPt2cNIk,https://youtu.be/1veOJzKazLU,,,68.4,0.035,0.392,,,28.9,1.25,0.0383,,
+S0024,Jalan Senyum,1.32217,103.9143689,B&L,https://www.youtube.com/embed/7ltPau9ZiSY,https://youtu.be/Fq6gP5N0ll0,https://youtu.be/7ltPau9ZiSY,,,54.2,0.236,-0.079,,,12.5,1.27,0.0205,,
+S0025,Parkway Parade Shopping Mall,1.3017126,103.90579,F&E,https://www.youtube.com/embed/5LJmlCw_txk,https://youtu.be/wXtvEtq7n-A,https://youtu.be/5LJmlCw_txk,,,64.2,0.074,0.072,,,24.4,1.19,0.0341,,
+S0026,Sembawang Park,1.462196,103.836771,C&T,https://www.youtube.com/embed/wfZP_CXCRaI,https://youtu.be/BWq6SnZjxNk,https://youtu.be/wfZP_CXCRaI,,,52.9,0.183,-0.187,,,9.97,1.26,0.0194,,
+S0027,S-11 Yishun 744 Hawker Centre,1.429337,103.834189,C&R,https://www.youtube.com/embed/I7iSE_LJuD4,https://youtu.be/Gk_9U3hPPbk,https://youtu.be/I7iSE_LJuD4,,,61.5,0.171,0.171,,,18.5,1.22,0.0295,,
+S0028,Upper Seletar Resevoir,1.397272,103.802971,C&T,https://www.youtube.com/embed/m4_cK8tyuPs,https://youtu.be/lqhIaWs57fw,https://youtu.be/m4_cK8tyuPs,,,51.8,0.24,-0.267,,,9.9,1,0.0301,,
+S0029,Botanic Gardens Eco Lake,1.320611,103.81609,C&T,https://www.youtube.com/embed/vFsPUWBGAwU,https://youtu.be/mFi9QBXmy7Q,https://youtu.be/vFsPUWBGAwU,,,52.8,0.327,-0.023,,,11.1,1.49,0.021,,
+S0030,Napier Road,1.306068,103.816902,B&L,https://www.youtube.com/embed/6oPo8lPEyJk,https://youtu.be/6pRhpXTXLXE,https://youtu.be/6oPo8lPEyJk,,,61.8,-0.058,-0.117,,,21,1.35,0.0276,,
+S0031,Holland Village Market & Food Centre (Main entrance),1.311237,103.795134,F&E,https://www.youtube.com/embed/x8cIDqrwVwI,https://youtu.be/bZiDoPMSk8Q,https://youtu.be/x8cIDqrwVwI,,,66.2,0.105,0.172,,,26.7,1.22,0.0343,,
+S0032,Raffles Marina,1.342688,103.634945,F&E,https://www.youtube.com/embed/XurCYP3FtTE,https://youtu.be/0hNJU8dmS2c,https://youtu.be/XurCYP3FtTE,,,56.5,0.339,-0.288,,,13.3,1.55,0.0212,,
+S0033,Johor Straits Lighthouse,1.344109,103.633988,C&T,https://www.youtube.com/embed/KfrL2Kvxuns,https://youtu.be/RCbKd-jWD-Q,https://youtu.be/KfrL2Kvxuns,,,49.6,0.334,-0.407,,,8.22,0.795,0.0207,,
+S0034,Jurong West Street 93,1.337139,103.693877,F&E,https://www.youtube.com/embed/gb2DliHYpZQ,https://youtu.be/7Tfik1aEBuI,https://youtu.be/gb2DliHYpZQ,,,70.8,-0.23,0.198,,,39.4,1.46,0.0335,,
+S0035,Punggol Waterway Park,1.411475,103.902547,C&T,https://www.youtube.com/embed/e2iEJHBgO34,https://youtu.be/PRVl9MYWc9c,https://youtu.be/e2iEJHBgO34,,,50.6,0.414,-0.367,,,10,1.21,0.0201,,
+S0036,Compass One Shopping Mall,1.392516,103.895626,F&E,https://www.youtube.com/embed/6bsW68KpdCo,https://youtu.be/Kg-AtRZHxv8,https://youtu.be/6bsW68KpdCo,,,67.3,0.027,0.306,,,30.2,1.23,0.0338,,
+S0037,Sengkang Bus Interchange,1.391887,103.89671,C&R,https://www.youtube.com/embed/7KCWAXrXoIw,https://youtu.be/1eDmTY9omak,https://youtu.be/7KCWAXrXoIw,,,64.1,-0.168,0.062,,,25.4,1.21,0.0313,,
+S0038,Sengkang Riverside Park,1.399461,103.883968,B&L,https://www.youtube.com/embed/GRCwuf351Ls,https://youtu.be/S4o4Cgi_kss,https://youtu.be/GRCwuf351Ls,,,53.7,0.169,-0.312,,,10.8,0.861,0.041,,
+S0039,Hougang Block 236,1.357766,103.888986,B&L,https://www.youtube.com/embed/JodTgtQck_I,https://youtu.be/zbrc7jcd1WM,https://youtu.be/JodTgtQck_I,,,52.7,0.252,-0.244,,,11.2,1.24,0.0223,,
+S0040,Mandai Estate,1.40766,103.757744,B&L,https://www.youtube.com/embed/tj2y6f0T5UU,https://youtu.be/z6YuOvP8zQE,https://youtu.be/tj2y6f0T5UU,,,67.3,-0.23,-0.066,,,31.9,1.27,0.032,,
+S0041,Singapore Zoo (Inuka Cafe),1.404775,103.790638,F&E,https://www.youtube.com/embed/1UDIybLh1MM,https://youtu.be/ZToKcxgITcA,https://youtu.be/1UDIybLh1MM,,,72,-0.172,0.333,,,32.6,1.19,0.0438,,
+S0042,Intersection of Woodlands Road & Choa Chu Kang Road,1.37966,103.760721,C&R,https://www.youtube.com/embed/o9vxcPOsixA,https://youtu.be/sYzV4dL2wWY,https://youtu.be/o9vxcPOsixA,,,70.6,-0.211,0.262,,,37.8,1.2,0.041,,
+S0043,The Grandstand Shopping Mall,1.336898,103.793471,B&L,https://www.youtube.com/embed/1n6kXMJTeTA,https://youtu.be/qX6DEzL0qQg,https://youtu.be/1n6kXMJTeTA,,,61.8,-0.125,-0.08,,,22.2,1.14,0.0291,,
+S0044,Holland Village Market & Food Centre (Lorong Mambong),1.312114,103.794243,C&R,https://www.youtube.com/embed/mTy1NPcUGGU,https://youtu.be/HWJr09vTaEc,https://youtu.be/mTy1NPcUGGU,,,66.8,-0.029,0.275,,,27.5,1.36,0.0315,,
+S0045,VivoCity (Shopping Mall),1.2630914,103.8226696,F&E,https://www.youtube.com/embed/ALLK-iVxQ4M,https://youtu.be/nRS28HiCCss,https://youtu.be/ALLK-iVxQ4M,,,57.5,0.211,0.086,,,14.5,1.04,0.0269,,
+S0046,Bishan MRT Station,1.3507496,103.8479319,C&R,https://www.youtube.com/embed/rj0w-3tT3dk,https://youtu.be/-j9ISKoCsqk,https://youtu.be/rj0w-3tT3dk,,,70.9,-0.218,0.194,,,34.9,1.24,0.0369,,
+S0047,Junction 8 Shopping Mall,1.350464,103.8491,F&E,https://www.youtube.com/embed/YW3vXDf95FU,https://youtu.be/Aavt1fEEHlw,https://youtu.be/YW3vXDf95FU,,,68.7,0.043,0.247,,,30.8,1.21,0.0352,,
+S0048,Asian Civilisations Museum,1.2869643,103.8511803,B&L,https://www.youtube.com/embed/UdU4QPc6B28,https://youtu.be/DAuxF1xTU_w,https://youtu.be/UdU4QPc6B28,,,57.4,0.283,0.117,,,13.1,1.01,0.0294,,
+S0049,National Gallery Singapore,1.2903992,103.8522353,C&T,https://www.youtube.com/embed/-y_n_XWdgZ8,https://youtu.be/cSnMAC6FMDA,https://youtu.be/-y_n_XWdgZ8,,,67.9,0.042,-0.323,,,31.1,1.04,0.0363,,
+S0050,Woodlands North Plaza,1.44248,103.790875,B&L,https://www.youtube.com/embed/HVSnY0QjNPs,https://youtu.be/nuxvAnutpaA,https://youtu.be/HVSnY0QjNPs,,,58.1,0.14,-0.002,,,16,1.22,0.0271,,
+S0051,Admiralty Park,1.444251,103.781903,C&T,https://www.youtube.com/embed/BOXcT0IUOIk,https://youtu.be/JwNUZh_W0UA,https://youtu.be/BOXcT0IUOIk,,,49.5,0.32,-0.404,,,8.44,1.21,0.0205,,
+S0052,Woodlands MRT Station,1.436908,103.786128,F&E,https://www.youtube.com/embed/WG1v8RLDtzo,https://youtu.be/CK6u7Lquh-g,https://youtu.be/WG1v8RLDtzo,,,68.1,0.064,0.381,,,26.4,1.29,0.0342,,
+S0053,Ang Mo Kio Town Garden West,1.3745452,103.841668,C&T,https://www.youtube.com/embed/VE560mzNlZc,https://youtu.be/UbnrtCryd4Y,https://youtu.be/VE560mzNlZc,,,51.4,0.287,-0.239,,,6.97,1.4,0.0175,,
+S0054,Bishan Harmony Park,1.3445156,103.8473121,B&L,https://www.youtube.com/embed/mFIRPcw4IA8,https://youtu.be/_xB5mfusfMA,https://youtu.be/mFIRPcw4IA8,,,62.3,-0.037,-0.129,,,19.5,1.27,0.0318,,
+S0055,Bukit Timah Hill (Simpang Hut),1.3531365,103.7774697,C&T,https://www.youtube.com/embed/aAcdK5wLwL0,https://youtu.be/0y4I19IEquQ,https://youtu.be/aAcdK5wLwL0,,,50.9,0.305,-0.147,,,8.02,1.71,0.0179,,
+S0056,Jurong Lake Gardens,1.334721,103.727506,C&T,https://www.youtube.com/embed/gHNCRCwAy0A,https://youtu.be/HW3Wxmn2OHE,https://youtu.be/gHNCRCwAy0A,,,52.8,0.37,-0.079,,,12.5,1.14,0.0218,,
+S0057,IMM Shopping Mall,1.335417,103.744832,C&R,https://www.youtube.com/embed/t9oI3k9e16Y,https://youtu.be/kfkMgqfx0EU,https://youtu.be/t9oI3k9e16Y,,,63.5,-0.073,0.146,,,21.5,1.18,0.0321,,
+S0058,Tuas South Avenue 7,1.284397,103.630698,B&L,https://www.youtube.com/embed/DRtuCEIRHSI,https://youtu.be/Nsb2Amo29gc,https://youtu.be/DRtuCEIRHSI,,,64.9,-0.184,-0.006,,,28.1,1.22,0.034,,
+S0059,Opposite SPC Admiralty (Petrol Station),1.442259,103.775228,C&R,https://www.youtube.com/embed/OR040bRD-Zc,https://youtu.be/We8TsEi51Pk,https://youtu.be/OR040bRD-Zc,,,67.3,-0.233,0.118,,,34.4,1.25,0.0323,,
+S0060,Old Nelson Road,1.448508,103.823187,B&L,https://www.youtube.com/embed/TZAII0S3MDI,https://youtu.be/lz-f1Mi3zSw,https://youtu.be/TZAII0S3MDI,,,59.9,0.334,-0.214,,,17.9,1.83,0.0205,,
+S0061,Khatib MRT Station,1.417219,103.833348,B&L,https://www.youtube.com/embed/TZAII0S3MDI,https://youtu.be/_ttqP29RVHE,https://youtu.be/VUzfAaC9hCU,,,57.6,0.189,-0.237,,,14.2,1.14,0.0229,,
+S0062,Yishun MRT Station,1.429314,103.834749,F&E,https://www.youtube.com/embed/43DcV7HjHls,https://youtu.be/cPnVe2XU1u0,https://youtu.be/43DcV7HjHls,,,56.8,0.171,0.128,,,14.4,1.16,0.0266,,
+S0063,NTU Yunnan Garden Pavilion 1,1.34211,103.68445,-,https://www.youtube.com/embed/j3rV-xJydno,,https://youtu.be/j3rV-xJydno,,,58.7,,,71.6,74,13.6,1.4,0.0288,0.328,0.00384
+S0064,NTU Yunnan Garden Pavilion 2,1.34186,103.68427,-,https://www.youtube.com/embed/4hKICiUF4QA,,https://youtu.be/4hKICiUF4QA,,,62.8,,,74.6,77.9,18,1.43,0.0312,0.412,0.00455
+S0065,NTU Yunnan Garden Pavilion 3,1.34208,103.68471,-,https://www.youtube.com/embed/wVoG17q_6E4,,https://youtu.be/wVoG17q_6E4,,,67.7,,,77.5,79.1,23.2,1.17,0.0365,0.361,0.0049
+S0066,NTU Yunnan Garden Pavilion 4,1.34276,103.6848,-,https://www.youtube.com/embed/oAtJtyhyrcA,,https://youtu.be/oAtJtyhyrcA,,,67.8,,,79.9,94.1,25.8,1.49,0.0324,0.348,0.00631
+S0067,NTU Yunnan Garden Pavilion 5,1.3427,103.68552,-,https://www.youtube.com/embed/Tw81QBSGSkg,,https://youtu.be/Tw81QBSGSkg,,,68.2,,,77.7,79.2,24.1,1.22,0.0361,0.475,0.00505
+S0068,NTU Yunnan Garden Pavilion 6,1.3433,103.68552,-,https://www.youtube.com/embed/A5awQ57drn4,,https://youtu.be/A5awQ57drn4,,,59.9,,,72.6,74.8,15.1,1.47,0.0284,0.358,0.00477
+S0069,NTU Yunnan Garden Pavilion 7,1.34337,103.68614,-,https://www.youtube.com/embed/WCXGIloZUQc,,https://youtu.be/WCXGIloZUQc,,,63.6,,,74.4,76.2,18.2,1.27,0.0326,0.311,0.00478
+S0070,NTU Waterfall,1.3434,103.68493,-,https://www.youtube.com/embed/KsuaGmA6ZiI,,https://youtu.be/KsuaGmA6ZiI,,,68.3,,,71,73.5,23.6,2.03,0.0251,0.099,0.0033
+S0071,NTU Nanyang Lake 1,1.34531,103.68459,-,https://www.youtube.com/embed/OPcaQu69fSM,,https://youtu.be/OPcaQu69fSM,,,57.3,,,68.9,69.9,10.8,1.01,0.0237,0.206,0.00768
+S0072,NTU Nanyang Lake 2,1.34637,103.68512,-,https://www.youtube.com/embed/RLJSNhvKS24,,https://youtu.be/RLJSNhvKS24,,,50.1,,,63.2,65.5,7.96,1.41,0.0196,0.271,0.0142
+S0073,NTU Nanyang Lake 3,1.34615,103.68541,-,https://www.youtube.com/embed/lWf9D-hnhmA,,https://youtu.be/lWf9D-hnhmA,,,48.3,,,62.9,65.6,6.85,1.33,0.0185,0.458,0.00603
+S0074,NTU Nanyang Lake 4,1.345068,103.684961,-,https://www.youtube.com/embed/90H-DqAeoK8,,https://youtu.be/90H-DqAeoK8,,,44.2,,,58.6,63.3,4.99,1.48,0.0154,0.211,0.00734
+S0075,NTU Nanyang Lake 5,1.344747,103.684974,-,https://www.youtube.com/embed/i4frUjQBmXk,,https://youtu.be/i4frUjQBmXk,,,48.3,,,62,66.6,6.82,1.32,0.0174,0.135,0.0128
