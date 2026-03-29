@@ -1,0 +1,379 @@
+/* --- Base JavaJam Styles --- */
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #FAF9F6; color: #221811; margin: 0; }
+#wrapper { width: 100%; margin: 0 auto; background-color: #FAF9F6; min-width: 750px; box-shadow: 0 20px 20px rgba(0,0,0,0.05);}
+header h2 { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; /* Sophisticated serif for titles */
+    color: #4A2C2A; 
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+nav { float: left; width: 280px; font-weight: bold; padding: 25px 0; }
+nav ul { list-style-type: none; padding-left: 0; }
+nav li { padding-bottom: 15px; padding-left: 20px; }
+nav a { 
+    border: 1px solid #C5A059;
+    border-radius: 30px;
+    background-color: #ffffff;
+    text-decoration: none; 
+    color: #8C3826; 
+    transition: color 0.3s ease;
+    font-size: 1.05em;
+    padding: 4px 8px 4.5px 7px; 
+}
+
+nav a:hover { color: #C5A059; } /* Muted Gold Hover */
+main { 
+    margin-left: 280px; 
+    padding: 30px; 
+    background-color: #FAF9F6; 
+    display: block; 
+}
+
+/* --- Search Bar Styling --- */
+.search-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 500px; /* Keeps the search bar from getting too wide on large screens */
+}
+
+#location-search {
+    width: 100%;
+     /* Matches your new clean body font */
+    font-size: 1em;padding: 12px 20px;
+    font-family: inherit;
+    border: 1px solid #C5A059; /* Muted Gold */
+    border-radius: 30px; /* Matches the pill-shape of your type-display */
+    background-color: #ffffff;
+    color: #4A2C2A;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+#location-search:focus {
+    border-color: #8C3826; /* Darker accent on focus */
+    box-shadow: 0 4px 12px rgba(140, 56, 38, 0.15);
+}
+
+/* --- Search Suggestions Dropdown --- */
+.suggestions-box {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-top: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    z-index: 2000; /* Keeps it above the map */
+    max-height: 250px;
+    overflow-y: auto;
+    display: none; /* Hidden by default */
+}
+
+.suggestion-item {
+    padding: 12px 20px;
+    cursor: pointer;
+    color: #4A2C2A;
+    font-size: 0.95em;
+    border-bottom: 1px solid #f0f0f0;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.suggestion-item:last-child {
+    border-bottom: none;
+}
+
+.suggestion-item:hover {
+    background-color: #FAF9F6;
+    color: #8C3826;
+    font-weight: bold;
+}
+/* --- Footer --- */
+footer { 
+    font-size: 75%; 
+    text-align: center; 
+    padding: 40px; 
+    background-color: #FAF9F6; 
+    border-top: 1px solid #eee;
+    clear: both; 
+}
+/* --- Map Container & Modern UI --- */
+#map {
+    height: 600px;
+    width: 100%;
+    border-radius: 16px; /* Smoother corners */
+    border: 1px solid #ddd;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    z-index: 1;
+}
+.leaflet-bar { border: none !important; box-shadow: 0 2px 6px rgba(0,0,0,0.15) !important; }
+.leaflet-bar a { background-color: #fff !important; color: #4A2C2A !important; border-bottom: 1px solid #f4f4f4 !important; border-radius: 4px !important; }
+
+/* --- Minimalistic Custom Pins (Maintained Colors) --- */
+.custom-pin {
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.2s ease-in-out;
+    z-index: 1000 !important; /* Forces markers to the front */
+}
+.custom-pin:hover {
+    transform: scale(2.0); 
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    z-index: 1000 !important;
+}
+/* Update these 4 HEX codes to perfectly match the colors in your picture */
+.pin-bl { background-color: #0f0e16; } /* Boring & Lifeless: Black */
+.pin-ct { background-color: #76a162; } /* Calm & Tranquil: Green */
+.pin-fe { background-color: #e68f37; } /* Full of Life & Exciting: Orange */
+.pin-cr { background-color: #c94370; } /* Chaotic & Restless: Pink */
+.pin-dash { background-color: #9E9E9E; } /* "-" Type: Grey */
+
+/* --- Dynamic Type Display (Below Map) --- */
+#type-display {
+    margin: 30px auto;
+    padding: 20px 30px;
+    width: fit-content;
+    min-width: 65%;
+    display: flex;
+    flex-direction: column; /* Stacks the top bar and the details container vertically */
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px solid rgba(197, 160, 89, 0.3);
+    border-radius: 20px; /* Changed from 50px so the square data fits better inside */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    color: #4A2C2A;
+    text-align: center;
+}
+#type-display strong {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0;  
+    font-size: 1.15em;
+    margin-right: 15px;
+}
+#details-container {
+    padding-top: 15px;
+    border-top: 1px solid #eee; /* Light separator line */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* Allows data points to wrap to the next line if needed */
+    gap: 10px;
+    justify-content: center;
+}
+#details-container p {
+    margin: 0;
+    font-size: 0.85em;
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: #4A2C2A;
+}
+.type-badge {
+    font-weight: bold;
+    padding: 6px 16px;
+    border-radius: 20px;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 0.85em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.type-badge.pin-fe { color: #333; } /* Makes text readable on the yellow background */
+
+/* --- Video Modal Overlay --- */
+#video-modal {
+    display: none;
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-color: rgba(34, 24, 17, 0.7);
+    backdrop-filter: blur(5px); /* Premium blur effect */
+    z-index: 2000;
+}
+#video-modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background-color: #ffffff;
+    padding: 25px;
+    width: 85%;
+    max-width: 850px;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.4);
+    position: relative;
+    text-align: center;
+}
+#close-modal {
+    position: absolute;
+    top: 15px; right: 20px;
+    font-size: 1.8em;
+    color: #8C3826;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#close-modal:hover { transform: rotate(90deg); }
+
+
+#video-player-container iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 8px;
+}
+/* --- Themed Dropdown --- */
+#time-selector {
+    background-color: #FAF9F6;
+    border: 1px solid #C5A059;
+    color: #4A2C2A;
+    padding: 5px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 0.9em;
+    outline: none;
+    transition: border-color 0.3s;
+
+}
+
+#time-selector:hover { border-color: #8C3826; }
+
+/* Ensure the display area is centered and visible */
+#type-display {
+    margin: 20px auto;
+    padding: 15px 40px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdfcf0;
+    border: 1px solid #ddd;
+    border-radius: px;
+    color: #4A2C2A;
+    gap: 5px
+}
+/* Sidebar Filter Styling */
+#filter-container {
+    margin: 15px 10px 0 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid rgba(140, 109, 70, 0.3);
+    border-radius: 8px;
+    font-size: 0.85em;
+    font-weight: normal;
+    width: 90%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+#filter-container p { 
+    margin-top: 0; 
+    color: #4A2C2A; 
+    font-size: 0.9em; 
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+#filter-container label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #4A2C2A;
+    transition: opacity 0.2s;
+}
+#filter-container label:hover { opacity: 0.7; }
+
+.legend-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin: 0 10px;
+    display: inline-block;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+/* --- SPL Heatmap Legend Styling --- */
+.legend-box {
+    margin: 15px 10px 0 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid rgba(140, 109, 70, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.legend-title {
+    margin-top: 0; 
+    color: #4A2C2A; 
+    font-size: 0.85em; 
+    font-weight: bold; 
+    border-bottom: 1px solid #eee; 
+    padding-bottom: 5px; 
+    margin-bottom: 10px;
+}
+
+/* ==========================================
+   HEATMAP LEGENDS
+   ========================================== */
+.heatmap-legend {
+    margin-top: 8px;
+    padding-left: 24px;
+}
+
+.legend-gradient {
+    height: 8px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+.legend-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75em;
+    color: #666;
+    font-weight: 500;
+}
+
+/* Specific Gradient Colors (Fully updated to isopl and isoev) */
+.grad-spl { 
+    background: linear-gradient(to right, #32CD32, #FFEA00, #FF8C00, #FF0000); 
+}
+.grad-isopl { 
+    background: linear-gradient(to right, #25f396, #009cfb, #0074ff, #3300ff, #A020F0); 
+}
+.grad-isoev { 
+    background: linear-gradient(to right, #6D1DC6, #9B04DB, #E200A3, #FF1C6A, #FF8103, #FBDD49); 
+}
+/* Specific Gradient Colors (Placeholders for new metrics) */
+.grad-loudness { 
+    background: linear-gradient(to right, #0074ff, #32CD32, #FFEA00, #FF8C00, #FF0000); 
+}
+.grad-sharpness { 
+    background: linear-gradient(to right, #009cfb, #3415cc, #591597, #8d1e5b, #de3324); 
+}
+.grad-roughness { 
+    background: linear-gradient(to right, #475684, #5f739d, #9fa3b5, #c5b7b1, #e7bf7f); 
+}
+
+/* --- Single Soft Glow Gradient --- */
+.blurred-heatmap {
+    pointer-events: none;
+    z-index: 400 !important; /* Lower than markers */
+    border: none !important;
+    /* Soft radial fade: Inner color to 0% opacity at 75% of the radius */
+    background: radial-gradient(circle, var(--glow-color) 0%, rgba(255,255,255,0) 75%);
+    border-radius: 50%;
+    /* Smooth transitions for size and opacity changes */
+    transition: width 0.4s ease-out, height 0.4s ease-out, margin 0.4s ease-out, opacity 0.4s ease-out;
+    will-change: width, height, opacity;
+}
