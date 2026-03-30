@@ -399,7 +399,7 @@ function updateDisplay(row, title) {
     
     let detailsHTML = '';
     const fields = [
-        { key: 'Sound Pressure Level (dB)', label: 'SPL (dB)', mode: 'spl', colorFn: getSPLColor },
+        { key: 'Sound Pressure Level (dB)', label: 'SPL (dBA)', mode: 'spl', colorFn: getSPLColor },
         { key: 'ISOPleasantness', label: 'ISO Pleasantness', mode: 'ISOPL', colorFn: getPleasantnessColor },
         { key: 'ISOEventfulness', label: 'ISO Eventfulness', mode: 'ISOEV', colorFn: getEventfulnessColor },
         { key: 'Loudness (sone)', label: 'Loudness (sone)', mode: 'loudness', colorFn: getLoudnessColor },
