@@ -94,12 +94,12 @@ function getSharpnessColor(val) {
 
 function getRoughnessColor(val) {
     if (isNaN(val)) return null;
-    if (val >= 0.04) return 'rgba(231, 191, 127)';   // #e7bf7f Brownish 
-    if (val >= 0.03) return 'rgba(197, 183, 177)';   // #c5b7b1 Lavender
-    if (val >= 0.025) return 'rgba(159, 163, 181)';  // #9fa3b5 Medium Purple
-    if (val >= 0.02) return 'rgba(95, 115, 157)';    // #5f739d Bluish Purple
-    return 'rgba(71, 86, 132)'; // #475684 Dark Blue
+    if (val >= 0.04) return 'rgb(255, 140, 0)';   // #ff8c00 Brownish 
+    if (val >= 0.03) return 'rgb(151, 166, 7)';   // #97a607 Lavender
+    if (val >= 0.02) return 'rgb(44, 148, 142)';    // #2c948e Bluish Purple
+    return 'rgb(96, 125, 139)'; // #607d8b Dark Blue
 }
+
 
 
 // ==========================================
