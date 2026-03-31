@@ -110,10 +110,23 @@ function closeModal() {
     modal.classList.remove('active');
     modal.style.display = 'none';
     document.getElementById('video-player-container').innerHTML = '';
+    
+    // Reset the UI text to default
     document.getElementById('type-display').innerHTML = `
-        Select a location on the map to view its soundscape type.
-        <div id="details-container"></div>
+        <div style="font-size: 1.1em; color: #555; text-align: center; padding: 20px;">
+            Select a location on the map to view its soundscape details.
+        </div>
     `;
+    
+    // --- NEW: Wipe the memory so checkboxes don't re-trigger it ---
+    currentlySelectedRow = null;
+    currentlySelectedTitle = "";
+    
+    // Destroy the chart if it exists to prevent ghost charts
+    if (currentChart) {
+        currentChart.destroy();
+        currentChart = null;
+    }
 }
 document.getElementById('close-modal').onclick = closeModal;
 
