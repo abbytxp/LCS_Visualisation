@@ -5,7 +5,7 @@ let taggedData = {};
 let markerList = []; 
 let graphData = {}; 
 let currentChart = null; 
-// --- NEW: Memory for the currently open modal ---
+// --- NEW: Fixed the issue of information modal not closing ---
 let currentlySelectedRow = null;
 let currentlySelectedTitle = "";
 
@@ -23,7 +23,7 @@ var grayMap = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{
     maxZoom: 20
 });
 
-// 1b. Initialize Map (Sets standardMap as the default load)
+// 1b. Initialize Map (Set standardMap as default map)
 var map = L.map('map', {
     center: [1.3521, 103.8198],
     zoom: 12,
@@ -50,10 +50,10 @@ const typeMap = {
 // ==========================================
 function getSPLColor(spl) {
     if (isNaN(spl)) return null;
-    if (spl >= 71) return 'rgba(255, 0, 0, 0.6)';      // Red
-    if (spl >= 61) return 'rgba(255, 140, 0, 0.6)';    // Orange
-    if (spl >= 51) return 'rgba(255, 234, 0, 0.5)';    // Yellow
-    if (spl >= 41) return 'rgba(50, 205, 50, 0.5)';    // Green
+    if (spl >= 71) return 'rgba(255, 0, 0, 0.6)';      // #FF0000 (Red)
+    if (spl >= 61) return 'rgba(255, 140, 0, 0.6)';    // #FF8C00 (Orange)
+    if (spl >= 51) return 'rgba(255, 234, 0, 0.5)';    // #FFEA00 (Yellow)
+    return 'rgba(50, 205, 50, 0.5)';                   // #32CD32 (Green)
 }
 
 function getPleasantnessColor(val) {
@@ -76,31 +76,29 @@ function getEventfulnessColor(val) {
 }
 function getLoudnessColor(val) {
     if (isNaN(val)) return null;
-    if (val >= 50) return 'rgba(255, 0, 0, 0.6)';      // Red
-    if (val >= 35) return 'rgba(255, 140, 0, 0.6)';    // Orange
-    if (val >= 20) return 'rgba(255, 234, 0, 0.5)';    // Yellow
-    if (val >= 10) return 'rgba(50, 205, 50, 0.5)';    // Green
-    return 'rgba(0, 116, 255, 0.6)'
+    if (val >= 50) return 'rgba(255, 0, 0, 0.6)';      // #FF0000 (Red)
+    if (val >= 35) return 'rgba(255, 140, 0, 0.6)';    // #FF8C00 (Orange)
+    if (val >= 20) return 'rgba(255, 234, 0, 0.5)';    // #FFEA00 (Yellow)
+    if (val >= 10) return 'rgba(50, 205, 50, 0.5)';    // #32CD32 (Green)
+    return 'rgba(0, 116, 255, 0.6)'                    // #0074ff (Blue)
 }
 
 function getSharpnessColor(val) {
     if (isNaN(val)) return null;
-    if (val >= 1.9) return 'rgba(222, 51, 36, 0.6)';    // #de3324 Red
-    if (val >= 1.6) return 'rgba(141, 30, 91, 0.6)';   // #8d1e5b Purple Red
-    if (val >= 1.3) return 'rgba(89, 21, 151, 0.6)';   // #591597 Purple
-    if (val >= 1.0) return 'rgba(52, 21, 204, 0.6)';   // #3415cc Purple Blue 
-    return 'rgba(0, 156, 251, 0.6)'; // #009cfb Light Blue
+    if (val >= 1.9) return 'rgba(222, 51, 36, 0.6)';   // #de3324 (Red)
+    if (val >= 1.6) return 'rgba(141, 30, 91, 0.6)';   // #8d1e5b (Purple Red)
+    if (val >= 1.3) return 'rgba(89, 21, 151, 0.6)';   // #591597 (Purple)
+    if (val >= 1.0) return 'rgba(52, 21, 204, 0.6)';   // #3415cc (Purple Blue) 
+    return 'rgba(0, 156, 251, 0.6)';                   // #009cfb (Light Blue)
 }
 
 function getRoughnessColor(val) {
     if (isNaN(val)) return null;
-    if (val >= 0.04) return 'rgb(255, 140, 0)';   // #ff8c00 Brownish 
-    if (val >= 0.03) return 'rgb(151, 166, 7)';   // #97a607 Lavender
-    if (val >= 0.02) return 'rgb(44, 148, 142)';    // #2c948e Bluish Purple
-    return 'rgb(96, 125, 139)'; // #607d8b Dark Blue
+    if (val >= 0.04) return 'rgb(255, 140, 0)';        // #ff8c00 Mustard 
+    if (val >= 0.03) return 'rgb(151, 166, 7)';        // #97a607 Lime Green
+    if (val >= 0.02) return 'rgb(44, 148, 142)';       // #2c948e Blue Green
+    return 'rgb(96, 125, 139)';                        // #607d8b Blue Grey
 }
-
-
 
 // ==========================================
 // 2. MODAL & DATA LOADING
@@ -115,8 +113,8 @@ function closeModal() {
     document.getElementById('type-display').innerHTML = `
         <div style="font-size: 1.1em; color: #555; text-align: center; padding: 20px;">
             Select a location on the map to view its soundscape details.
-        </div>
-    `;
+        </div>   
+        `;
     
     // --- NEW: Wipe the memory so checkboxes don't re-trigger it ---
     currentlySelectedRow = null;
@@ -128,6 +126,7 @@ function closeModal() {
         currentChart = null;
     }
 }
+
 document.getElementById('close-modal').onclick = closeModal;
 
 Papa.parse("Databases/Tagged_30s.csv", {
@@ -373,7 +372,6 @@ function initDynamicHeatmapScale() {
             }
         });
     }
-
     updateHeatmapSizes();
     map.on('zoom', updateHeatmapSizes);
 }

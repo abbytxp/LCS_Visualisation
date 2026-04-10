@@ -116,7 +116,7 @@ footer {
 .leaflet-bar { border: none !important; box-shadow: 0 2px 6px rgba(0,0,0,0.15) !important; }
 .leaflet-bar a { background-color: #fff !important; color: #4A2C2A !important; border-bottom: 1px solid #f4f4f4 !important; border-radius: 4px !important; }
 
-/* --- Minimalistic Custom Pins (Maintained Colors) --- */
+/* --- Minimalistic Custom Pins  --- */
 .custom-pin {
     border: 2px solid #FFFFFF;
     border-radius: 50%;
@@ -130,7 +130,7 @@ footer {
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
     z-index: 1000 !important;
 }
-/* Update these 4 HEX codes to perfectly match the colors in your picture */
+/* Marker styles that match LCS */
 .pin-bl { background-color: #0f0e16; } /* Boring & Lifeless: Black */
 .pin-ct { background-color: #76a162; } /* Calm & Tranquil: Green */
 .pin-fe { background-color: #e68f37; } /* Full of Life & Exciting: Orange */
