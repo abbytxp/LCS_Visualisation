@@ -31,3 +31,42 @@ A web application that visualises characteristic soundscapes of Singapore on an 
 
   /* "-" Type: Grey */
   .pin-dash { background-color: #9E9E9E; }
+```
+</details>
+
+<details>
+  <summary>Update legend styling</summary>
+
+  ```css
+  /* Sound Pressure Level (SPL) Gradient */
+  .grad-spl { 
+      background: linear-gradient(to right, #32CD32, #FFEA00, #FF8C00, #FF0000); 
+  }
+
+  /* ISO PL Gradient */
+  .grad-isopl { 
+      background: linear-gradient(to right, #25f396, #009cfb, #0074ff, #3300ff, #A020F0); 
+  }
+
+  /* ISO EV Gradient */
+  .grad-isoev { 
+      background: linear-gradient(to right, #6D1DC6, #9B04DB, #E200A3, #FF1C6A, #FF8103, #FBDD49); 
+  }
+
+  /* Loudness Metric */
+  .grad-loudness { 
+      background: linear-gradient(to right, #0074ff, #32CD32, #FFEA00, #FF8C00, #FF0000); 
+  }
+
+  /* Sharpness Metric */
+  .grad-sharpness { 
+      background: linear-gradient(to right, #009cfb, #3415cc, #591597, #8d1e5b, #de3324); 
+  }
+
+  /* Roughness Metric */
+  .grad-roughness { 
+      background: linear-gradient(to right, #607d8b, #2c948e, #97a607, #ff8c00); 
+  }
+
+```
+</details>
