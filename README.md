@@ -70,3 +70,18 @@ A web application that visualises characteristic soundscapes of Singapore on an 
 
 ```
 </details>
+
+#### Map-logic.js
+
+<details>
+  <summary>Update Heatmap styling on map view</summary>
+
+  ```javascript
+  function getSPLColor(spl) {
+      if (isNaN(spl)) return null;
+      if (spl >= 71) return 'rgba(255, 0, 0, 0.6)';      // #FF0000 (Red)
+      if (spl >= 61) return 'rgba(255, 140, 0, 0.6)';    // #FF8C00 (Orange)
+      if (spl >= 51) return 'rgba(255, 234, 0, 0.5)';    // #FFEA00 (Yellow)
+      return 'rgba(50, 205, 50, 0.5)';                   // #32CD32 (Green)
+  }
+
